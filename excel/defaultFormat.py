@@ -2,7 +2,7 @@ from openpyxl import Workbook
 from openpyxl.workbook.defined_name import DefinedName
 from openpyxl.worksheet.datavalidation import DataValidation
 
-from format import autofit_selected_columns, setFont
+from format import autofit_selected_columns
 
 def generateDefaultFormat(filename="sample2"):
     wb = Workbook()
